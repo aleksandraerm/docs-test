@@ -1,5 +1,5 @@
 // @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
+// Примечание. Аннотации типов позволяют проверять типы и автодополнение IDE.
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
@@ -9,16 +9,16 @@ const config = {
   title: 'Spichka Docs',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
+  // Установите здесь рабочий URL-адрес вашего сайта
   url: 'https://github.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  // Задайте путь /<baseUrl>/, под которым обслуживается ваш сайт.
+  // Для развертывания страниц GitHub это часто '/<projectName>/'.
   baseUrl: '/docs-test/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'aleksandraerm', // Usually your GitHub org/user name.
-  projectName: 'docs-test', // Usually your repo name.
+  // Конфигурация развертывания страниц GitHub.
+  // Если вы не используете страницы GitHub, они вам не нужны.
+  organizationName: 'aleksandraerm', // Обычно это имя организации/пользователя GitHub.
+  projectName: 'docs-test', // Обычно ваше имя repo.
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
@@ -38,11 +38,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve('/'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
