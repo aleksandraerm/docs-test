@@ -11,12 +11,10 @@ const config = {
 
   // Установите здесь рабочий URL-адрес вашего сайта
   url: 'https://github.com',
-  // Задайте путь /<baseUrl>/, под которым обслуживается ваш сайт.
-  // Для развертывания страниц GitHub это часто '/<projectName>/'.
+  // Задайте путь /<baseUrl>/, под которым обслуживается ваш сайт. Для развертывания страниц GitHub это часто '/<projectName>/'.
   baseUrl: '/docs-test/',
 
-  // Конфигурация развертывания страниц GitHub.
-  // Если вы не используете страницы GitHub, они вам не нужны.
+  // Конфигурация развертывания страниц GitHub. Если вы не используете страницы GitHub, они вам не нужны.
   organizationName: 'aleksandraerm', // Обычно это имя организации/пользователя GitHub.
   projectName: 'docs-test', // Обычно ваше имя repo.
   deploymentBranch: 'gh-pages',
@@ -24,9 +22,7 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
+  // Даже если вы не используете интернализацию, вы можете использовать это поле для установки полезных метаданных, таких как язык html. Например, если ваш сайт на китайском языке, вы можете заменить «en» на «zh-Hans».
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -39,13 +35,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('/'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          // Пожалуйста, измените это на свой repo. Удалите это, чтобы удалить ссылки «изменить эту страницу».
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
+          // Пожалуйста, измените это на свой repo. Удалите это, чтобы удалить ссылки «изменить эту страницу».
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
@@ -59,7 +53,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      // Замените социальной картой вашего проекта.
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Spichka Docs',
