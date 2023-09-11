@@ -34,7 +34,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('/'),
+          sidebarPath: require.resolve('./sidebars.js'),
           // Пожалуйста, измените это на свой repo. Удалите это, чтобы удалить ссылки «изменить эту страницу».
         },
         blog: {
