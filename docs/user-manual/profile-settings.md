@@ -14,10 +14,10 @@
 * **Указать место работы**. В выпадающем списке “Компания” выберите свою компанию
 * **Указать подразделение**. В выпадающем списке Блок выберите свое подразделение
 
-![![profile-settings-2](../assets/profile-settings-2.png)](../assets/profile-settings-1.png)
+![![profile-settings-2](../assets/profile-settings-2.png)](../assets/profile-settings-2.png)
 
 * **Добавить или изменить аватар**. Нажмите «Добавить аватар» и загрузите свое изображение, фото или выберите картинку из предложенных, нажмите «Сохранить»
 
-![![profile-settings-3](../assets/profile-settings-3.png)](../assets/profile-settings-1.png)
+![![profile-settings-3](../assets/profile-settings-3.png)](../assets/profile-settings-3.png)
 
 4. Чтобы сохранить ваши настройки и внесенные изменения в Профиле, нажмите «Сохранить»
